@@ -198,6 +198,14 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | Y    | I    | E    | A    | DOT  | D    | S    | T    | N    | B    |
 | J    | /    | ,    | K    | '    | W    | M    | L    | P    | V    |
 
+***** Canary
+
+~MIRYOKU_ALPHAS=CANARY~
+
+#+NAME: canary
+| W     | L     | Y     | P     | B     | Z     | F     | O     | U     | '     |
+| A     | R     | S     | T     | G     | M     | N     | E     | I     | O     |
+| Q     | J     | V     | D     | K     | X     | H     | ,     | DOT   | /     |
 
 ***** Colemak
 
