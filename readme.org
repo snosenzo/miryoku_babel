@@ -1046,6 +1046,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP
     #elif defined (MIRYOKU_ALPHAS_BEAKL15)
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP
+    #elif defined (MIRYOKU_ALPHAS_CANARY)
+      #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP
     #elif defined (MIRYOKU_ALPHAS_COLEMAK)
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP
     #elif defined (MIRYOKU_ALPHAS_COLEMAKDH)
@@ -1070,6 +1072,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_AZERTY
     #elif defined (MIRYOKU_ALPHAS_BEAKL15)
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_BEAKL15
+    #elif defined (MIRYOKU_ALPHAS_CANARY)
+      #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_CANARY
     #elif defined (MIRYOKU_ALPHAS_COLEMAK)
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_COLEMAK
     #elif defined (MIRYOKU_ALPHAS_COLEMAKDH)
@@ -1101,6 +1105,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP
     #elif defined (MIRYOKU_EXTRA_BEAKL15)
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP
+    #elif defined (MIRYOKU_EXTRA_CANARY)
+      #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP
     #elif defined (MIRYOKU_EXTRA_COLEMAK)
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP
     #elif defined (MIRYOKU_EXTRA_COLEMAKDH)
@@ -1125,6 +1131,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_AZERTY
     #elif defined (MIRYOKU_EXTRA_BEAKL15)
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_BEAKL15
+    #elif defined (MIRYOKU_EXTRA_CANARY)
+      #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_CANARY
     #elif defined (MIRYOKU_EXTRA_COLEMAK)
       #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_COLEMAK
     #elif defined (MIRYOKU_EXTRA_COLEMAKDH)
@@ -1156,6 +1164,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_AZERTY_FLIP
     #elif defined (MIRYOKU_TAP_BEAKL15)
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP
+    #elif defined (MIRYOKU_TAP_CANARY)
+      #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP
     #elif defined (MIRYOKU_TAP_COLEMAK)
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP
     #elif defined (MIRYOKU_TAP_COLEMAKDH)
@@ -1180,6 +1190,8 @@ Body of miryoku_layer_selection.h.
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_AZERTY
     #elif defined (MIRYOKU_TAP_BEAKL15)
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_BEAKL15
+    #elif defined (MIRYOKU_TAP_CANARY)
+      #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_CANARY
     #elif defined (MIRYOKU_TAP_COLEMAK)
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_COLEMAK
     #elif defined (MIRYOKU_TAP_COLEMAKDH)
@@ -1497,6 +1509,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 <<table-layer-taphold(alphas_table=beakl15)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+<<table-layer-taphold(alphas_table=canary)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 <<table-layer-taphold(alphas_table=colemak)>>
 
@@ -1740,6 +1755,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 <<table-layer-taphold(alphas_table=beakl15)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+<<table-layer-taphold(alphas_table=canary)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 <<table-layer-taphold(alphas_table=colemak)>>
 
@@ -1980,6 +1998,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 <<table-layer-taphold(alphas_table=beakl15)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+<<table-layer-taphold(alphas_table=canary)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 <<table-layer-taphold(alphas_table=colemak)>>
 
@@ -2218,6 +2239,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 <<table-layer-taphold(alphas_table=beakl15)>>
+
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+<<table-layer-taphold(alphas_table=canary)>>
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 <<table-layer-taphold(alphas_table=colemak)>>
@@ -2459,6 +2483,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 <<table-layer-taphold(alphas_table=beakl15)>>
+
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+<<table-layer-taphold(alphas_table=canary)>>
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 <<table-layer-taphold(alphas_table=colemak)>>

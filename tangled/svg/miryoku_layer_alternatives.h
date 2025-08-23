@@ -78,6 +78,12 @@ U_MT("Y", "Meta"), U_MT("I", "Alt"),  U_MT("E", "Ctrl"), U_MT("A", "Shift"),U_S(
 U_LT("J", U_BUTTON),U_SMT("?", "/", "AltGr"),U_S("<", "S_COMM"),"K",               U_S("\"", "'"),    "W",               "M",               "L",               U_MT("P", "AltGr"),U_LT("V", U_BUTTON),\
 U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),U_LT("Tab", U_MOUSE),U_LT("Enter", U_SYM),U_LT("Back Space", U_NUM),U_LT("Delete", U_FUN),U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+"W",               "L",               "Y",               "P",               "B",               "Z",               "F",               "O",               "U",               U_S("\"", "'"),    \
+U_MT("A", "Meta"), U_MT("R", "Alt"),  U_MT("S", "Ctrl"), U_MT("T", "Shift"),"G",               "M",               U_MT("N", "Shift"),U_MT("E", "Ctrl"), U_MT("I", "Alt"),  U_MT("O", "Meta"), \
+U_LT("Q", U_BUTTON),U_MT("J", "AltGr"),"V",               "D",               "K",               "X",               "H",               U_S("<", "S_COMM"),U_SMT(">", ".", "AltGr"),U_SLT("?", "/", U_BUTTON),\
+U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),U_LT("Tab", U_MOUSE),U_LT("Enter", U_SYM),U_LT("Back Space", U_NUM),U_LT("Delete", U_FUN),U_NP,              U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 "Q",               "W",               "F",               "P",               "G",               "J",               "L",               "U",               "Y",               U_S("\"", "'"),    \
 U_MT("A", "Meta"), U_MT("R", "Alt"),  U_MT("S", "Ctrl"), U_MT("T", "Shift"),"D",               "H",               U_MT("N", "Shift"),U_MT("E", "Ctrl"), U_MT("I", "Alt"),  U_MT("O", "Meta"), \

@@ -78,6 +78,12 @@ U_MT(y, met),      U_MT(i, alt),      U_MT(e, ctl),      U_MT(a, sft),      .,  
 U_LT(j, U_BUTTON), U_MT(/, ralt),     U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 U_MT(p, ralt),     U_LT(v, U_BUTTON), \
 U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT(tab, U_MOUSE),U_LT(ent, U_SYM),  U_LT(bspc, U_NUM), U_LT(del, U_FUN),  U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY \
+w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
+U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_LT(q, U_BUTTON), U_MT(j, ralt),     v,                 d,                 k,                 x,                 h,                 U_COMM,            U_MT(., ralt),     U_LT(/, U_BUTTON), \
+U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT(tab, U_MOUSE),U_LT(ent, U_SYM),  U_LT(bspc, U_NUM), U_LT(del, U_FUN),  U_NP,              U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 h,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
