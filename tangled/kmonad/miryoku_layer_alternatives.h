@@ -18,6 +18,12 @@ U_MT(y, met),      U_MT(i, alt),      U_MT(e, ctl),      U_MT(a, sft),      .,  
 U_LT(j, U_BUTTON), U_MT(/, ralt),     U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 U_MT(p, ralt),     U_LT(v, U_BUTTON), \
 U_NP,              U_NP,              U_LT(del, U_FUN),  U_LT(bspc, U_NUM), U_LT(ent, U_SYM),  U_LT(tab, U_MOUSE),U_LT(spc, U_NAV),  U_LT(esc, U_MEDIA),U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
+U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_LT(q, U_BUTTON), U_MT(j, ralt),     v,                 d,                 k,                 x,                 h,                 U_COMM,            U_MT(., ralt),     U_LT(/, U_BUTTON), \
+U_NP,              U_NP,              U_LT(del, U_FUN),  U_LT(bspc, U_NUM), U_LT(ent, U_SYM),  U_LT(tab, U_MOUSE),U_LT(spc, U_NAV),  U_LT(esc, U_MEDIA),U_NP,              U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 h,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
@@ -145,6 +151,12 @@ y,                 i,                 e,                 a,                 .,  
 j,                 /,                 U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 p,                 v,                 \
 U_NP,              U_NP,              del,               bspc,              ent,               tab,               spc,               esc,               U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
+a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
+q,                 j,                 v,                 d,                 k,                 x,                 h,                 U_COMM,            .,                 /,                 \
+U_NP,              U_NP,              del,               bspc,              ent,               tab,               spc,               esc,               U_NP,              U_NP
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 a,                 r,                 s,                 t,                 d,                 h,                 n,                 e,                 i,                 o,                 \
@@ -203,6 +215,12 @@ U_NP,              U_NP,              esc,               spc,               tab,
 q,                 h,                 o,                 u,                 x,                 g,                 c,                 r,                 f,                 z,                 \
 y,                 i,                 e,                 a,                 .,                 d,                 s,                 t,                 n,                 b,                 \
 j,                 /,                 U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 p,                 v,                 \
+U_NP,              U_NP,              esc,               spc,               tab,               ent,               bspc,              del,               U_NP,              U_NP
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
+a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
+q,                 j,                 v,                 d,                 k,                 x,                 h,                 U_COMM,            .,                 /,                 \
 U_NP,              U_NP,              esc,               spc,               tab,               ent,               bspc,              del,               U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \

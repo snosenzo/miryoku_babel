@@ -1479,6 +1479,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 <<table-layer-taphold(alphas_table=beakl15, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+<<table-layer-taphold(alphas_table=canary, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 <<table-layer-taphold(alphas_table=colemak, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
@@ -1543,6 +1546,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs-flip)>>
 
@@ -1572,6 +1578,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs)>>
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs)>>
@@ -1725,6 +1734,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 <<table-layer-taphold(alphas_table=beakl15, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+<<table-layer-taphold(alphas_table=canary, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 <<table-layer-taphold(alphas_table=colemak, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
@@ -1789,6 +1801,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs-flip)>>
 
@@ -1818,6 +1833,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs)>>
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs)>>
@@ -1968,6 +1986,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 <<table-layer-taphold(alphas_table=beakl15, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+<<table-layer-taphold(alphas_table=canary, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 <<table-layer-taphold(alphas_table=colemak, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
@@ -2032,6 +2053,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs-flip)>>
 
@@ -2061,6 +2085,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs)>>
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs)>>
@@ -2210,6 +2237,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 <<table-layer-taphold(alphas_table=beakl15, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+<<table-layer-taphold(alphas_table=canary, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 <<table-layer-taphold(alphas_table=colemak, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
@@ -2274,6 +2304,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs-flip)>>
 
@@ -2303,6 +2336,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs)>>
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs)>>
@@ -2454,6 +2490,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 <<table-layer-taphold(alphas_table=beakl15, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
+<<table-layer-taphold(alphas_table=canary, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 <<table-layer-taphold(alphas_table=colemak, thumbs_table=thumbs-flip, hold_table=hold-flip)>>
 
@@ -2518,6 +2557,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs-flip)>>
 
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs-flip)>>
+
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs-flip)>>
 
@@ -2547,6 +2589,9 @@ Keycodes that match any of these prefixes will not have ~KC.~ automatically prep
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=beakl15, thumbs_table=thumbs)>>
+
+#define MIRYOKU_ALTERNATIVES_TAP_CANARY \
+<<table-layer-full(current_layer_name="U_TAP", alphas_table=canary, thumbs_table=thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 <<table-layer-full(current_layer_name="U_TAP", alphas_table=colemak, thumbs_table=thumbs)>>
