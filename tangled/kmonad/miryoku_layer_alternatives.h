@@ -20,7 +20,7 @@ U_NP,              U_NP,              U_LT(del, U_FUN),  U_LT(bspc, U_NUM), U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_CANARY_FLIP \
 w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
-U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_MT(c, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(a, met),      \
 U_LT(q, U_BUTTON), U_MT(j, ralt),     v,                 d,                 k,                 x,                 h,                 U_COMM,            U_MT(., ralt),     U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_LT(del, U_FUN),  U_LT(bspc, U_NUM), U_LT(ent, U_SYM),  U_LT(tab, U_MOUSE),U_LT(spc, U_NAV),  U_LT(esc, U_MEDIA),U_NP,              U_NP
 
@@ -86,7 +86,7 @@ U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_CANARY \
 w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
-U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_MT(c, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(a, met),      \
 U_LT(q, U_BUTTON), U_MT(j, ralt),     v,                 d,                 k,                 x,                 h,                 U_COMM,            U_MT(., ralt),     U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT(tab, U_MOUSE),U_LT(ent, U_SYM),  U_LT(bspc, U_NUM), U_LT(del, U_FUN),  U_NP,              U_NP
 
@@ -153,7 +153,7 @@ U_NP,              U_NP,              del,               bspc,              ent,
 
 #define MIRYOKU_ALTERNATIVES_TAP_CANARY_FLIP \
 w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
-a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
+c,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 a,                 \
 q,                 j,                 v,                 d,                 k,                 x,                 h,                 U_COMM,            .,                 /,                 \
 U_NP,              U_NP,              del,               bspc,              ent,               tab,               spc,               esc,               U_NP,              U_NP
 
@@ -219,7 +219,7 @@ U_NP,              U_NP,              esc,               spc,               tab,
 
 #define MIRYOKU_ALTERNATIVES_TAP_CANARY \
 w,                 l,                 y,                 p,                 b,                 z,                 f,                 o,                 u,                 U_QUOT,            \
-a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
+c,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 a,                 \
 q,                 j,                 v,                 d,                 k,                 x,                 h,                 U_COMM,            .,                 /,                 \
 U_NP,              U_NP,              esc,               spc,               tab,               ent,               bspc,              del,               U_NP,              U_NP
 
